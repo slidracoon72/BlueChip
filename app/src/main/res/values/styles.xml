@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/c8</item>
+        <item name="colorPrimaryDark">@color/c7</item>
+        <item name="colorAccent">@color/c7</item>
+    </style>
+
+
+    <style name="App" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">#000</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="FlatButton" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/c2</item>
+        <item name="colorControlHighlight">@color/c3</item>
+    </style>
+
+    <style name="FlatButton1" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/c2</item>
+        <item name="colorControlHighlight">@color/c6</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

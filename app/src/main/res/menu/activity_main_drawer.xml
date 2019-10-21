@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/control"
+            android:icon="@drawable/ic_adb_black_24dp"
+            android:title="Automation" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="Cloud" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_hardware_24dp"
+            android:title="Hardware" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_function_24dp"
+            android:title="Functionalities" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_future_24dp"
+            android:title="Future Scope" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="How To Use" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_developer_black_24dp"
+                android:title="Developers" />
+        </menu>
+    </item>
+
+</menu>

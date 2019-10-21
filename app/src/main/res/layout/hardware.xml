@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HARDWARE"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="40dp"
+        android:textColor="#4689C8"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NodeMCU"
+                    android:padding="30dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/c5"
+                    android:background="@color/c1"
+                    android:textSize="50px"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/photo_image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nodemcu" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/nodemcu"
+                android:textColor="@color/c2"
+                android:textSize="40px"
+                 />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bread Board"
+                    android:padding="30dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/c5"
+                    android:background="@color/c1"
+                    android:textSize="50px"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/aa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/breadboard" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/breadboard"
+                android:textColor="@color/c2"
+                android:textSize="40px"
+                 />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bulb"
+                    android:padding="30dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/c5"
+                    android:background="@color/c1"
+                    android:textSize="50px"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/aaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bulb" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/bulb"
+                android:textColor="@color/c2"
+                android:textSize="40px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fan Motor"
+                    android:padding="30dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/c5"
+                    android:background="@color/c1"
+                    android:textSize="50px"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/aaq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fan" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/fan"
+                android:textColor="@color/c2"
+                android:textSize="40px"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GPS Sensor"
+                    android:padding="30dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/c5"
+                    android:background="@color/c1"
+                    android:textSize="50px"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/aqq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gps" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/gps"
+                android:textColor="@color/c2"
+                android:textSize="40px"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
